@@ -31,3 +31,10 @@ body {
     text-wrap: balance;
   }
 }
+
+.active-link {
+   color:  white !important;
+}
+.inactive-link {
+  color:  rgb(43, 198, 254)!important;
+}
