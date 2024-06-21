@@ -38,3 +38,25 @@ body {
 .inactive-link {
   color:  rgb(43, 198, 254)!important;
 }
+
+.sider-layout::-webkit-scrollbar {
+  width: 12px;
+}
+
+.sider-layout::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+.sider-layout::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 6px;
+}
+
+.sider-layout::-webkit-scrollbar-thumb:hover {
+  background: #010101;
+}
+
+.sider-layout {
+  scrollbar-color: #778effaa #f1f1f1;
+  scrollbar-width: thin;
+}

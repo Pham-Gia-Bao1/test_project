@@ -1,0 +1,38 @@
+/* Detail.css */
+
+.detail {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .detail-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  .detail-content {
+    flex: 1;
+  }
+
+  .detail-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .detail-description {
+    margin-bottom: 5px;
+  }
+
+  .detail-price {
+    font-weight: bold;
+  }
+
+  .detail-type {
+    color: #666;
+  }
